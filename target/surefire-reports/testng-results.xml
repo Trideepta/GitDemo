@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25083" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:25 EST">
+    <groups>
+    </groups>
+    <test name="App Testing" duration-ms="6" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:00 EST">
+    </test> <!-- App Testing -->
+    <test name="Validating navigation page" duration-ms="8259" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:08 EST">
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@747f281]" name="initialize" is-config="true" duration-ms="7958" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@747f281]" name="basePageNavigation" duration-ms="140" started-at="2022-02-04T16:48:08 EST" finished-at="2022-02-04T16:48:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@747f281]" name="tearDown" is-config="true" duration-ms="144" started-at="2022-02-04T16:48:08 EST" finished-at="2022-02-04T16:48:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating navigation page -->
+    <test name="Validating Title" duration-ms="16488" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:17 EST">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.ValidateTitle@2ca923bb]" name="initialize" is-config="true" duration-ms="7593" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateAppTitle()[pri:0, instance:Academy.E2EProject.ValidateTitle@2ca923bb]" name="validateAppTitle" duration-ms="8096" started-at="2022-02-04T16:48:08 EST" finished-at="2022-02-04T16:48:16 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Academy.E2EProject.ValidateTitle.validateAppTitle(ValidateTitle.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateTitle@2ca923bb]" name="tearDown" is-config="true" duration-ms="81" started-at="2022-02-04T16:48:17 EST" finished-at="2022-02-04T16:48:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title -->
+    <test name="Validating User Login" duration-ms="25083" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:25 EST">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@6bb4dd34]" name="initialize" is-config="true" duration-ms="7604" started-at="2022-02-04T16:48:00 EST" finished-at="2022-02-04T16:48:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@6bb4dd34]" name="basePageNavigation" duration-ms="9019" started-at="2022-02-04T16:48:08 EST" data-provider="getData" finished-at="2022-02-04T16:48:17 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@6bb4dd34]" name="basePageNavigation" duration-ms="8375" started-at="2022-02-04T16:48:17 EST" data-provider="getData" finished-at="2022-02-04T16:48:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.E2EProject.HomePage@6bb4dd34]" name="tearDown" is-config="true" duration-ms="62" started-at="2022-02-04T16:48:25 EST" finished-at="2022-02-04T16:48:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
