@@ -34,6 +34,7 @@ public class ValidateTitle extends base{
 		//compare the text from the browser with actual text
 		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");
 		log.info("title is displayed");
+		System.out.println("Github updates");
 		
 	}	
 	
